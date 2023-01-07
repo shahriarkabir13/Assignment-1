@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+  
+  
+  *{  
+        font-family: 'Work Sans', sans-serif;
+        margin: auto;
+     
+    }
+ .nav{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    } 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding-top: 45px;
+    padding-left: 10%;
+    padding-right: 1px;
+}
+.me{
+    color: #f9004f;
+    font-size: 37px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    
+}
+.highlight{
+    color: #473434
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:black ;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+ nav ul li a:hover {
+    color: rgb(255, 1, 102);
+    transition: 1s;
+ }
+ .btn{
+    background-color: rgba(255, 68, 0, 0.808);
+    color: aliceblue;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 70px;
+    
+ }
+ .btn:hover {
+    color: rgb(255, 255, 255);
+   transform: scale(1.2);
+   transition: 0.1s;
+   background-color:rgba(243, 90, 35, 0.808);
+ }
+
+.banner{
+    text-align: right;
+    position: relative;
+    right: 10px;
+    font-size:30px;
+    top: 300px;
+    margin-right:200px;
+    
+}
+.btn2{
+    font-weight: bold;
+    border: 2px solid transparent;
+    padding: 10px 13px;
+    border-radius: 8px;
+    color:white ;
+    background-color: rgba(255, 68, 0, 0.808);
+
+   
+}
+.btn2:hover{
+      color: rgb(255, 255, 255);
+      transform: scale(1.2);
+       transition: 0.1s;
+    background-color: rgba(243, 90, 35, 0.808);
+    
+    }
+       
+       
+
+
+.paragraph{
+    font-size: 20px;
+    text-align: right;
+    text-transform: capitalize;
+  }
+
+
+ 
+ .skills-container{
+    display: flex;
+ }
+ .skill-title{
+    align-items: center;
+    font-weight: 700;
+    font-size: 20px;
+     
+ }
+ .skill-description{
+    color: gray;
+    
+ }
+
+
+ /*contact styles*/
+ .contact{
+    display: flex;
+    gap: 100px ;
+    background-color: black;
+    padding: 130px 200px;
+    color: whitesmoke;
+    text-align: left;
+ }
+
+    
+ 
+ .contact input{
+     margin-bottom: 10px;
+     border:10px;
+ }
+
+ .gradiant-section{    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1140px;
+    height: 300px;
+    margin-left: 320px;
+    margin-right: 100px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    text-align: left;
+    background-image: linear-gradient(90deg, #F15B22 -4.61%, rgba(241, 91, 34, 0) 95.39%), url(
+'../images/watch.png');
+    
+ }
+ 
+
+.about-section{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 550px;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.507);
+
+}
+.about-details{
+    text-align: left;
+    
+}
+.section-title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+ .watch{
+    margin-left: 100px;
+    padding-top: 80px;
+    color: #fff9fb;
+    font-size:25px;
+ }
+ .btnnew{
+   border-radius: 5px;
+   color:orangered;
+   background-color: rgb(248, 246, 241);
+ font-size: large;
+   padding: 10px ;
+ }
+.btnnew:hover{
+    color: rgba(0, 0, 0, 0.822);
+      transform: scale(1.2);
+       transition: 0.1s;}
+    
+       .my-plans{
+        margin-left:150px;
+       }
+       .useful a{
+        text-decoration: none;
+        }
+       
+        
